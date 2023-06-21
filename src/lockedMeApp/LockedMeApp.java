@@ -10,12 +10,16 @@ public class LockedMeApp {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        displayWelcomeMessage();
-        boolean isRunning = true;
+        
+    	displayWelcomeMessage();
+        
+    	boolean isRunning = true;
 
         while (isRunning) {
-            displayMainMenu();
-            String choice = getUserChoice();
+            
+        	displayMainMenu();
+            
+        	String choice = getUserChoice();
 
             switch (choice) {
                 case "1":
